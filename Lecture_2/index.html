@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f1(text) {
+        document.write(`<div style='font-style: italic;'><u><b>${text}</b></u></div>`)
+    }
+
+    f1("oreo")
+
+    function f2(textsize) {
+        document.write(`<div style='font-size: ${textsize}px'>hello</div>`)
+    }
+
+    {
+
+        f2(30)
+
+        function f3(x, y) {
+
+            document.write(`<table style="width:${x}px;height:${y}px" class="my-table">
+                <tr>
+                    <td>Row 1, Column 1</td>
+                    <td>Row 1, Column 2</td>
+                </tr>
+                <tr>
+                    <td>Row 2, Column 1</td>
+                    <td>Row 2, Column 2</td>
+                </tr>
+            </table>`)
+        }
+
+        f3(10,20)
+    }
+
+
+</script>
+</body>
+</html>

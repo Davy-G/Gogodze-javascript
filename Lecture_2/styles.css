@@ -1,0 +1,23 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.my-table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+.my-table td {
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+    background-color: red;
+}
+
+.my-table td:hover {
+    background-color: #e0e0e0;
+}
